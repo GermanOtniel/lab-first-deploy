@@ -14,7 +14,7 @@ const siteController     = require("./routes/siteController");
 const locationController = require("./routes/locationController");
 
 // Mongoose configuration
-mongoose.connect("mongodb://localhost/deploy-exercise");
+mongoose.connect("mongodb://ger:ger@ds113700.mlab.com:13700/heroku-mongolab");
 
 // Middlewares configuration
 app.use(logger("dev"));
